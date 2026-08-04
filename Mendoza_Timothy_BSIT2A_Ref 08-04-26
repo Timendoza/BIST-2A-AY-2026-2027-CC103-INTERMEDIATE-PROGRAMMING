@@ -1,0 +1,25 @@
+name = str("Tim")
+print(name)
+
+age = int(19)
+print(age)
+
+weight = float(60.19)
+print(weight)
+
+me = bool("handsome")
+print(me)
+
+class Profile:
+    name = "Timothy S. Mendoza"
+    age = "19"
+    address = "San Agustin, Lubao, Pampanga"
+    favcolor = "black"
+    print("My name is " + name + ". I am " + age + "years old. I lived in " + address + ". And my favorite color is " + favcolor + ".")
+
+class Profile:
+    name = input("Enter your name: ")
+    age = input("Enter your age: ")
+    address = input("Enter your address: ")
+    favcolor = input("Enter your favorite color: ")
+    print("My name is " + name + ". I am " + age + "years old. I lived in " + address + ". And my favorite color is " + favcolor + ".")
